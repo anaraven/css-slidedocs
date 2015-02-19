@@ -1,0 +1,137 @@
+@media all {
+.section.level1 {
+  height: 6.5in;
+  width: 10in;
+  -webkit-box-sizing: border-box;
+  position: relative;
+  padding-top: 36px;
+  page-break-before: always;
+}
+
+.section.level1.one {
+  padding-left: 3.75in;
+  padding-right: 1in;
+}
+
+.section.level1.one-half {
+  padding-left: 3.75in;
+  padding-top: 3.25in;
+  padding-right: 1in;
+}
+
+.section.level1.two {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.two .section.level2 {
+  position: absolute;
+  left: 6.5in;
+  width: 2.5in;
+  -webkit-box-sizing: border-box;
+}
+
+.two h1 + .section.level2 {
+  left: 3.75in;
+}
+
+.two-half .section.level2 {
+  position: absolute;
+  left: 6.5in;
+  top: 3.25in;
+  width: 2.5in;
+  -webkit-box-sizing: border-box;
+}
+
+.two-half h1+.section.level2 {
+  left: 3.75in;
+}
+
+h1 {
+position: absolute;
+left: 0px;
+width: 3.5in;
+-webkit-box-sizing: border-box;
+margin: 0;
+top: 24px;
+width: 3.5in;
+border-top-width: 2px;
+border-style: solid;
+border-bottom-width: 0;
+border-left-width: 0;
+border-right-width: 0;
+padding-top: 12px;
+}
+
+p {
+}
+
+ul {
+}
+
+li {
+}
+
+blockquote {
+margin: 0;
+}
+
+div.level1.fig {
+    padding: 0px;
+}
+
+div.figure img {
+    width: 6.4in;
+    height: 4.8in;
+    position: absolute;
+    right: 0.2in;
+}
+
+#TOC {
+  width: 10in;
+  -webkit-box-sizing: border-box;
+  position: relative;
+  height: 6.5in;
+}
+
+#header {
+  width: 10in;
+  -webkit-box-sizing: border-box;
+  position: relative;
+  height: 6.5in;
+}
+
+h1.title {
+position: absolute;
+left: 0px;
+width: 6in;
+top: 0in;
+border-style: none;
+}
+
+h2.author {
+position: absolute;
+right: 1in;
+bottom: 0.5in;
+width: 1.5in;
+vertical-align: bottom;
+}
+
+h3.date {
+position: absolute;
+right: 2.6in;
+bottom: 0.5in;
+width: 1.5in;
+vertical-align: bottom;
+}
+}
+
+@media all{
+div#TOC, div#header, div.level1 {
+border-style: solid;
+border-width: 1px;
+margin-top: 3px;
+}
+}

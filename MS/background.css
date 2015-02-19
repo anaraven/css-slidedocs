@@ -1,0 +1,25 @@
+h1 {
+background: steelblue;
+border-style: solid;
+}
+
+div.level1 {
+background: yellow;
+margin: 12px;
+border-style: solid
+}
+
+p, li {
+background: violet;
+border-color: black;
+}
+
+ul {
+background: bisque;
+}
+
+div.level1.fig {
+    background: none repeat scroll 0% 0% red;
+}
+
+

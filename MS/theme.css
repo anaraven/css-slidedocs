@@ -1,0 +1,88 @@
+@media all {
+body {
+font-family: "Microsoft Tai Le", Arial, sans-serif;
+font-size: 13px;
+line-height: 1.13;
+margin-bottom: 6px;
+}
+
+h1 {
+font-family: Arial, sans-serif;
+font-size: 28px;
+line-height: 0.95;
+}
+
+h2 {
+font-family: "Corbel", sans-serif;
+font-size: 17px;
+color: #E34A06;
+font-style: italic;
+line-height: 1.2;
+font-weight: 100;
+}
+
+h3 {
+font-family: "Corbel", sans-serif;
+font-size: 17px;
+color: #3C3D3E;
+font-style: italic;
+line-height: 1;
+font-weight: 100;
+}
+
+h4 {
+font-family: "Microsoft Tai Le", Arial, sans-serif;
+font-weight: bold;
+color: #118E97;
+font-size: 13px;
+line-height: 1.1;
+}
+
+/* header slide */
+#header {
+background: none repeat scroll 0% 0% skyblue;
+}
+
+
+h1.title {
+text-transform: uppercase;
+color: white;
+font-size: 66px;
+letter-spacing: -2px;
+}
+
+h2.author {
+color: white;
+}
+
+h3.date {
+color: white;
+}
+
+/****/
+
+p {
+}
+
+ul {
+}
+
+li {
+}
+
+blockquote {
+color: #E34A06;
+font-family: "Corbel", sans-serif;
+font-style: italic;
+border-color: black;
+border-style: solid;
+border-left-width: 0;
+border-right-width: 0;
+border-bottom-width: 1px;
+border-top-width: 1px;
+}
+
+
+div.figure img {
+}
+}
