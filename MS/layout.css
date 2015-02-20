@@ -3,6 +3,7 @@
   height: 6.5in;
   width: 10in;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   position: relative;
   padding-top: 36px;
   page-break-before: always;
@@ -31,6 +32,15 @@
   left: 6.5in;
   width: 2.5in;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  top: 24px;
+  border-top-width: 2px;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  padding-top: 12px;
 }
 
 .two h1 + .section.level2 {
@@ -43,6 +53,7 @@
   top: 3.25in;
   width: 2.5in;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .two-half h1+.section.level2 {
@@ -54,6 +65,7 @@ position: absolute;
 left: 0px;
 width: 3.5in;
 -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 margin: 0;
 top: 24px;
 width: 3.5in;
@@ -98,6 +110,7 @@ div.figure img {
 #TOC {
   width: 10in;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   position: relative;
   height: 6.5in;
 }
@@ -105,6 +118,7 @@ div.figure img {
 #header {
   width: 10in;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   position: relative;
   height: 6.5in;
 }
