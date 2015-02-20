@@ -74,8 +74,14 @@ ul {
 li {
 }
 
+.one-half blockquote {
+position: absolute;
+left: 0;
+width:1.5in;
+top: 3.25in;
+}
+
 blockquote {
-margin: 0;
 }
 
 div.level1.fig {

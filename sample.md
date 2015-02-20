@@ -1,7 +1,7 @@
 ---
 title: Slidedoc Template
-author: Author
-date: Date
+author: Your Name Here
+date: February 24, 2014
 abstract: The following pages are an overview of this template A subtitle can be put in this text box too Or you can use it as an overview of what’s in your slidedoc
 ---
 
@@ -41,6 +41,13 @@ Hit return and tab again and it changes to a size that works great for body copy
 
 # Flat Design Visual Style {.one-half}
 Each slidedoc should have a consistent visual language. Have clear typeset hierarchy, constrained color palette and consistent illustration style. There are many reasonably priced illustrations available. The trick is to make sure they hang together like a family. Below are places you can get illustrations priced from free to a few dollars.:
+
+> We've used a flat design style in this template
+> 
+> Page 11-16 are sample slides of flat design
+> 
+> If you purchase more graphic elements, make sure to get editable graphics so you can change the colors to match your template
+
 
 #### Free:
 One Extra Pixel: <http://drte.co/rh>  
