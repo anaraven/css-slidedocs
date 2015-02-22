@@ -2,7 +2,11 @@
 title: Slidedoc Template
 author: Your Name Here
 date: February 24, 2014
-abstract: The following pages are an overview of this template A subtitle can be put in this text box too Or you can use it as an overview of what’s in your slidedoc
+css:
+  - MS/theme.css 
+  - MS/layout.css
+abstract: |
+    The following pages are an overview of this template A subtitle can be put in this text box too Or you can use it as an overview of what’s in your slidedoc
 ---
 
 # What is a Slidedoc? {.two}
