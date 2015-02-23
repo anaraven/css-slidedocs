@@ -1,15 +1,15 @@
 @media all {
 body {
 font-family: "Microsoft Tai Le", Arial, sans-serif;
-font-size: 13px;
-line-height: 1.13;
+font-size: 14px;
+/* line-height: 1.13; */
 margin-bottom: 6px;
 }
 
 h1 {
 font-family: Arial, sans-serif;
-font-size: 28px;
-line-height: 0.95;
+font-size: 32px;
+/* line-height: 0.95; */
 }
 
 h2 {
@@ -45,10 +45,12 @@ background: none repeat scroll 0% 0% skyblue;
 
 
 h1.title {
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: white;
 font-size: 66px;
-letter-spacing: -2px;
+letter-spacing: -3px;
+font-kerning: normal;
+line-height: normal;
 }
 
 h2.author:before {
@@ -90,17 +92,17 @@ padding-top: 10px;
 
 blockquote p {
 border-bottom-width: 1.5px;
-border-style: solid;
 border-bottom-color: black;
-border-left-style: none;
-border-right-style: none;
-border-top-style: none;
+border-style: none;
+border-bottom-style: solid;
+padding: 0px;
 padding-bottom: 10px;
-padding-top: 0px;
 }
 
 
-
+a:link {
+color: inherit;
+}
 
 div.figure img {
 }

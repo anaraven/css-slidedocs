@@ -1,23 +1,23 @@
 @media all {
-.section.level1 {
+#header, #TOC, .section.level1 {
   height: 6.5in;
-  width: 10in;
+  width: 10.5in;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   position: relative;
-  padding-top: 36px;
+  padding: 0.25in;
+}
+
+.section.level1,
+.section.level1.one,
+.section.level1.one-half {
+  padding-left: 111mm;
+  padding-top: 0.75in;
   page-break-before: always;
 }
 
-.section.level1.one {
-  padding-left: 3.75in;
-  padding-right: 1in;
-}
-
 .section.level1.one-half {
-  padding-left: 3.75in;
   padding-top: 3.25in;
-  padding-right: 1in;
 }
 
 .section.level1.two {
@@ -27,57 +27,53 @@
   flex-direction: column;
 }
 
-.two .section.level2 {
+/** **/
+
+.two .section.level2, .two-half .section.level2 {
   position: absolute;
-  left: 6.5in;
-  width: 2.5in;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  left: 183.5mm;
+  top: 0.5in;
+  width: 2.625in;
   margin: 0;
-  top: 24px;
+  padding-right: 0.125in;
+  padding-top: 0.125in;
+  border-width: 0;
   border-top-width: 2px;
   border-style: solid;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-right-width: 0;
-  padding-top: 12px;
 }
 
-.two h1 + .section.level2 {
-  left: 3.75in;
+.two h1+.section.level2, .two-half h1+.section.level2 {
+  left: 111mm;
 }
 
 .two-half .section.level2 {
-  position: absolute;
-  left: 6.5in;
-  top: 3.25in;
-  width: 2.5in;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  padding-top: 79mm;
 }
 
-.two-half h1+.section.level2 {
-  left: 3.75in;
-}
+/** **/
 
 h1 {
 position: absolute;
-left: 0px;
-width: 3.5in;
 -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+left: 0.25in;
+top: 0.5in;
+padding-top: 0.25in;
+padding-right: 0.25in;
 margin: 0;
-top: 24px;
-width: 3.5in;
+width: 3.625in;
 border-top-width: 2px;
 border-style: solid;
 border-bottom-width: 0;
 border-left-width: 0;
 border-right-width: 0;
-padding-top: 12px;
 }
 
 p {
+margin:0;
+padding-bottom: 1em;
 }
 
 ul {
@@ -86,14 +82,16 @@ ul {
 li {
 }
 
-.one-half blockquote {
+.one-half blockquote, .two-half blockquote {
 position: absolute;
-left: 0;
-width:1.5in;
+left: 0.25in;
+width:1.75in;
 top: 3.25in;
 }
 
-blockquote {
+.one-half blockquote p, .two-half blockquote p {
+padding-top:1em;
+padding-right:0.125in;
 }
 
 div.level1.fig {
@@ -107,51 +105,38 @@ div.figure img {
     right: 0.2in;
 }
 
-#TOC {
-  width: 10in;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  position: relative;
-  height: 6.5in;
-}
-
-#header {
-  width: 10in;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  position: relative;
-  height: 6.5in;
-}
+/*****/
 
 h1.title {
 position: absolute;
-left: 0px;
+left: 0.25in;
 width: 6in;
-top: 0in;
+top: 0.25in;
 border-style: none;
 }
 
-h2.author {
+h2.author, h3.date {
 position: absolute;
-right: 1in;
-bottom: 0.5in;
-width: 1.5in;
+bottom: 0.75in;
+width: 1.6in;
 vertical-align: bottom;
+text-align: right;
+}
+
+h2.author {
+right: 0.5in;
 }
 
 h3.date {
-position: absolute;
-right: 2.6in;
-bottom: 0.5in;
-width: 1.5in;
-vertical-align: bottom;
+right: 2.375in;
 }
 }
 
-@media all{
+@media screen{
 div#TOC, div#header, div.level1 {
-border-style: solid;
-border-width: 1px;
+outline-style: solid;
+outline-color: lightgrey;
+outline-width:1px;
 margin-top: 3px;
 }
 }

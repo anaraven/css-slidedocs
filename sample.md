@@ -6,7 +6,11 @@ css:
   - MS/theme.css 
   - MS/layout.css
 abstract: |
-    The following pages are an overview of this template A subtitle can be put in this text box too Or you can use it as an overview of what’s in your slidedoc
+    The following pages are an overview of this template 
+
+    A subtitle can be put in this text box too 
+
+    Or you can use it as an overview of what’s in your slidedoc
 ---
 
 # What is a Slidedoc? {.two}
@@ -17,6 +21,7 @@ A slidedoc is a visual document intended to be read and referenced instead of pr
 
 ## 
 Effective slidedocs are developed by knowing your audience, understanding how they consume information, and by having one clear big idea. Developing effective slidedocs also requires visualizing ideas and making the information easy to navigate. 
+
 Slidedocs are one of the most effective tools for communicating ideas quickly and establishing consensus. Your ideas deserve the best possible communication vehicle. Slidedocs are designed for the way we communicate today.
 
 > This template accommodates longer-form reading material
