@@ -27,6 +27,11 @@
   flex-direction: column;
 }
 
+.section.level1.chart {
+  padding-top: 3.25in;
+  padding-left: 1in;
+  padding-right: 6.75in;
+}
 /** **/
 
 .two .section.level2, .two-half .section.level2 {
@@ -82,6 +87,10 @@ ul {
 li {
 }
 
+hr {
+display:none;
+}
+
 .one-half blockquote, .two-half blockquote {
 position: absolute;
 left: 0.25in;
@@ -94,15 +103,35 @@ padding-top:1em;
 padding-right:0.125in;
 }
 
-div.level1.fig {
+.figure {
+    position: absolute;
+    top: 0.5in;
+    width: 5.75in;
+    border-style: none;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: black;
     padding: 0px;
+    padding-top: 0.25in;
 }
 
-div.figure img {
-    width: 6.4in;
-    height: 4.8in;
-    position: absolute;
-    right: 0.2in;
+.chart .figure {
+    height: 141mm;
+    left: 111mm;
+}
+
+.one-half img {
+    max-width: 100%;
+    max-height: 100%;
+ /* max-width: 5.5in;
+    max-height: 3in; */
+}
+
+.chart img {
+    max-width: 100%;
+    max-height: 100%;
+/*  max-width: 5.5in;
+    max-height: 141mm; */
 }
 
 /*****/
@@ -139,4 +168,8 @@ outline-color: lightgrey;
 outline-width:1px;
 margin-top: 3px;
 }
+}
+
+@page {
+margin: 1cm;
 }
