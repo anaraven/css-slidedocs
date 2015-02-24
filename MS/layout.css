@@ -91,6 +91,17 @@ hr {
 display:none;
 }
 
+pre.source:before {
+  content: "Source: ";
+}
+
+pre.source {
+  position:absolute;
+  font-size: small;
+  left: 0.25in;
+  bottom: 0.25in;
+}
+
 .one-half blockquote, .two-half blockquote {
 position: absolute;
 left: 0.25in;
@@ -120,19 +131,19 @@ padding-right:0.125in;
     left: 111mm;
 }
 
-.one-half img {
-    max-width: 100%;
-    max-height: 100%;
- /* max-width: 5.5in;
-    max-height: 3in; */
+.one .figure {
+left: 1in;
+top: 2.25in;
+width: 3.5in;
+height: 3.25in;
+border: none;
 }
 
-.chart img {
+.figure img {
     max-width: 100%;
     max-height: 100%;
-/*  max-width: 5.5in;
-    max-height: 141mm; */
 }
+
 
 /*****/
 
@@ -158,6 +169,50 @@ right: 0.5in;
 
 h3.date {
 right: 2.375in;
+}
+
+/* chapter slide */
+.chapter > ul {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  left: 145mm;
+  top: 0.25in;
+  width: 3.625in;
+  margin: 0;
+  padding-right: 0.125in;
+  padding-top: 0.125in;
+  border-width: 0;
+  border-top-width: 2px;
+  border-style: solid;
+}
+
+
+.chapter h1{
+position: absolute;
+left: 0.25in;
+width: 6in;
+top: 3.25in;
+border-style: none;
+}
+
+.chapter p, .chapter ul {
+color: black;
+font-family: "Corbel", sans-serif;
+font-style: italic;
+margin: 0;
+}
+
+.chapter p:first-child {
+border-top-width: 0.5px;
+border-top-style: solid;
+border-top-color: black;
+padding-top: 10px;
+}
+
+#TOC > ul:before {
+	content: "Table of Contents";
+	font-size: large;
 }
 }
 

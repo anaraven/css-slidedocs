@@ -38,9 +38,13 @@ font-size: 13px;
 line-height: 1.1;
 }
 
+h1 strong {
+color: #31CCE8;
+}
+
 /* header slide */
 #header {
-background: none repeat scroll 0% 0% skyblue;
+background: none repeat scroll 0% 0% #31CCE8;
 }
 
 
@@ -64,6 +68,23 @@ color: white;
 h3.date {
 color: white;
 }
+
+/* chapter slide */
+.chapter {
+background: none repeat scroll 0% 0% #F9BD03;
+}
+
+
+.chapter h1{
+/* text-transform: uppercase; */
+color: white;
+font-size: 66px;
+letter-spacing: -3px;
+font-kerning: normal;
+line-height: normal;
+}
+
+
 
 /****/
 
