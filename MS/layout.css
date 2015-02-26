@@ -8,7 +8,13 @@
   padding: 0.25in;
 }
 
-#TOC, .section.level1,
+#TOC {
+  padding-left: 0.5in;
+  padding-top: 0.5in;
+  page-break-before: always;
+}
+
+.section.level1,
 .section.level1.one,
 .section.level1.one-half {
   padding-left: 111mm;
@@ -229,8 +235,27 @@ padding-top: 10px;
 }
 
 #TOC > ul:before {
+  border-top: black solid 2px;
 	content: "Table of Contents";
+	font-size: 32px;
+	font-family: Arial;
+	font-weight: bold;
+width:3in;
+left: -3.5in;
+position: absolute;
+padding-top: 0.125in;
+}
+
+#TOC > ul {
+  border-top: black solid 2px;
 	font-size: large;
+/* padding-top: 0.125in; */
+left: 4.125in;
+position: absolute;
+}
+
+#TOC li {
+padding-top: 0.125in;
 }
 }
 
