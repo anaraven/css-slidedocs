@@ -8,12 +8,7 @@
   padding: 0.25in;
 }
 
-#TOC {
-  padding-left: 0.5in;
-  padding-top: 0.5in;
-  page-break-before: always;
-}
-
+#TOC,
 .section.level1,
 .section.level1.one,
 .section.level1.one-half {
@@ -65,7 +60,7 @@
 
 /** **/
 
-h1 {
+#TOC > ul:before, h1 {
 position: absolute;
 -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -185,7 +180,7 @@ border-style: none;
 h2.author, h3.date {
 position: absolute;
 bottom: 0.75in;
-width: 1.6in;
+width: 1.4in;
 vertical-align: bottom;
 text-align: right;
 }
@@ -235,27 +230,28 @@ padding-top: 10px;
 }
 
 #TOC > ul:before {
+  content: "Contents Outline";
+  font-size: 32px;
+  font-family: Arial;
+  font-weight: bold;
+/* left: -3.875in;
+  top: -2px;
   border-top: black solid 2px;
-	content: "Table of Contents";
-	font-size: 32px;
-	font-family: Arial;
-	font-weight: bold;
-width:3in;
-left: -3.5in;
-position: absolute;
-padding-top: 0.125in;
+  width:3in;
+  position: absolute;
+  padding-top: 0.125in; */
 }
 
 #TOC > ul {
   border-top: black solid 2px;
-	font-size: large;
-/* padding-top: 0.125in; */
-left: 4.125in;
-position: absolute;
+  font-size: large;
+  padding-top: 0.125in;
+/*  left: 4.125in;
+  position: absolute; */
 }
 
 #TOC li {
-padding-top: 0.125in;
+/* padding-top: 0.125in; */
 }
 }
 
