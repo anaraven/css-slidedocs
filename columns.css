@@ -1,0 +1,41 @@
+@media print {
+div.level1 {
+display: block;
+-webkit-column-count: 3;
+-moz-column-count: 3;
+-webkit-column-gap: 20px;
+-moz-column-gap: 20px;
+-moz-column-fill: auto;
+page-break-after: always;
+}
+}
+
+@media all {
+div.level1 {
+display: block;
+-webkit-column-count: 3;
+-moz-column-count: 3;
+-webkit-column-gap: 20px;
+-moz-column-gap: 20px;
+-moz-column-fill: auto;
+page-break-after: always;
+}
+body {
+font-family: Arial,sans-serif;
+font-size: 11px;
+}
+h1 {
+font-family: Arial, sans-serif;
+font-size: 28px;
+-webkit-column-break-after: right;
+-moz-column-break-after: right;
+}
+
+h2 {
+font-family: Corbel,sans-serif;
+font-size: 15px;
+color: darkorange;
+font-weight: bold;
+font-style: italic;
+}
+}
