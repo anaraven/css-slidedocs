@@ -1,0 +1,105 @@
+body {
+font-family: Arial,sans-serif;
+font-size: 12px;
+}
+h1 {
+font-family: "Open Sans",Arial, sans-serif;
+font-size: 28px;
+}
+h2 {
+font-family: Corbel,sans-serif;
+font-size: 15px;
+color: darkorange;
+font-weight: bold;
+font-style: italic;
+}
+/**/
+
+@media all {
+#header {
+position: relative;
+height: 6in;
+display: flex;
+background: none repeat scroll 0% 0% skyblue;
+}
+
+div.level1 {
+position: relative;
+height: 6in;
+display: flex;
+padding-left: 3.2in;
+padding-top: 1cm;
+flex-wrap: wrap;
+align-content: flex-start;
+flex-direction: column;
+page-break-before: always;
+}
+
+h1.title {
+position: absolute;
+color: white;
+left: 10px;
+font-size: 40px;
+width: 6in;
+top: 1in;
+}
+
+h2.author {
+color: black;
+position: absolute;
+top: 4.5in;
+left: 8in;
+}
+
+h3.date {
+position: absolute;
+left: 8in;
+top: 5in;
+}
+}
+
+h1 {
+position: absolute;
+left: 10px;
+top: 10px;
+width: 3in;
+}
+
+p {
+width: 3in;
+margin-right: 1em;
+}
+
+ul {
+max-height: 5in;
+width: 3in;
+flex-wrap: wrap;
+flex-direction: column;
+align-content: flex-start;
+}
+
+li {
+}
+
+blockquote {
+color: darkorange;
+font-style: italic;
+float: left;
+border-top: 2px solid darkorange;
+border-bottom: 2px solid darkorange;
+position: absolute;
+left: -32px;
+width: 3in;
+}
+
+div.level1.fig {
+    background: none repeat scroll 0% 0% red;
+    padding: 0px;
+}
+
+div.figure img {
+    width: 6.4in;
+    height: 4.8in;
+    position: absolute;
+    right: 0.2in;
+}
